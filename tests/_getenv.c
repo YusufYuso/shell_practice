@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-// Global variable environ that holds environment variables
 extern char **environ;
 
 char *_getenv(const char *name)
